@@ -5,6 +5,7 @@ import {
   increment,
   incrementByAmount,
 } from "./redux/features/counter/counterSlice";
+import { todos } from "./lib/data";
 // redux
 // 1. create a store
 // 2. create a slice (reducer + actions)
